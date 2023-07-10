@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BA9670C1-9CAF-4AFC-8A78-E3BBCD42C9F4}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SalesSystem</RootNamespace>
+    <AssemblyName>SalesSystem</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoWin32Manifest>true</NoWin32Manifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>SalesSystem.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>online-shopping.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="forms\extermForms\activateScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\extermForms\activateScreen.Designer.cs">
+      <DependentUpon>activateScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\extermForms\loginScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\extermForms\loginScreen.Designer.cs">
+      <DependentUpon>loginScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\homeScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\homeScreen.Designer.cs">
+      <DependentUpon>homeScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\otherForms\customMessageBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\otherForms\customMessageBox.Designer.cs">
+      <DependentUpon>customMessageBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\otherForms\invoiceTemplete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\otherForms\invoiceTemplete.Designer.cs">
+      <DependentUpon>invoiceTemplete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\otherForms\searchProducts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\otherForms\searchProducts.Designer.cs">
+      <DependentUpon>searchProducts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\registerProductScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\registerProductScreen.Designer.cs">
+      <DependentUpon>registerProductScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\registerSalesScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\registerSalesScreen.Designer.cs">
+      <DependentUpon>registerSalesScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\settingScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\settingScreen.Designer.cs">
+      <DependentUpon>settingScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="models\DatabaseEngine.cs" />
+    <Compile Include="models\Product.cs" />
+    <Compile Include="models\Sales.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="forms\extermForms\activateScreen.resx">
+      <DependentUpon>activateScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\extermForms\loginScreen.resx">
+      <DependentUpon>loginScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\homeScreen.resx">
+      <DependentUpon>homeScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\otherForms\customMessageBox.resx">
+      <DependentUpon>customMessageBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\otherForms\invoiceTemplete.resx">
+      <DependentUpon>invoiceTemplete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\otherForms\searchProducts.resx">
+      <DependentUpon>searchProducts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\registerProductScreen.resx">
+      <DependentUpon>registerProductScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\registerSalesScreen.resx">
+      <DependentUpon>registerSalesScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\settingScreen.resx">
+      <DependentUpon>settingScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="online-shopping.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,30 @@
+c:\users\lenovo\documents\visual studio 2013\Projects\SalesSystem\SalesSystem\bin\Debug\SalesSystem.exe.config
+c:\users\lenovo\documents\visual studio 2013\Projects\SalesSystem\SalesSystem\bin\Debug\SalesSystem.exe
+c:\users\lenovo\documents\visual studio 2013\Projects\SalesSystem\SalesSystem\bin\Debug\SalesSystem.pdb
+c:\users\lenovo\documents\visual studio 2013\Projects\SalesSystem\SalesSystem\obj\Debug\SalesSystem.csprojResolveAssemblyReference.cache
+c:\users\lenovo\documents\visual studio 2013\Projects\SalesSystem\SalesSystem\obj\Debug\SalesSystem.homeScreen.resources
+c:\users\lenovo\documents\visual studio 2013\Projects\SalesSystem\SalesSystem\obj\Debug\SalesSystem.forms.registerProductScreen.resources
+c:\users\lenovo\documents\visual studio 2013\Projects\SalesSystem\SalesSystem\obj\Debug\SalesSystem.Properties.Resources.resources
+c:\users\lenovo\documents\visual studio 2013\Projects\SalesSystem\SalesSystem\obj\Debug\SalesSystem.csproj.GenerateResource.Cache
+c:\users\lenovo\documents\visual studio 2013\Projects\SalesSystem\SalesSystem\obj\Debug\SalesSystem.exe
+c:\users\lenovo\documents\visual studio 2013\Projects\SalesSystem\SalesSystem\obj\Debug\SalesSystem.pdb
+C:\Users\lenovo\documents\visual studio 2013\Projects\SalesSystem\SalesSystem\obj\Debug\SalesSystem.forms.otherForms.customMessageBox.resources
+C:\Users\lenovo\documents\visual studio 2013\Projects\SalesSystem\SalesSystem\obj\Debug\SalesSystem.forms.otherForms.searchProducts.resources
+D:\New folder\Visual Studio 2013\Projects\SalesSystem\SalesSystem\bin\Debug\SalesSystem.exe.config
+D:\New folder\Visual Studio 2013\Projects\SalesSystem\SalesSystem\bin\Debug\SalesSystem.exe
+D:\New folder\Visual Studio 2013\Projects\SalesSystem\SalesSystem\bin\Debug\SalesSystem.pdb
+D:\New folder\Visual Studio 2013\Projects\SalesSystem\SalesSystem\obj\Debug\SalesSystem.csprojAssemblyReference.cache
+D:\New folder\Visual Studio 2013\Projects\SalesSystem\SalesSystem\obj\Debug\SalesSystem.homeScreen.resources
+D:\New folder\Visual Studio 2013\Projects\SalesSystem\SalesSystem\obj\Debug\SalesSystem.forms.otherForms.customMessageBox.resources
+D:\New folder\Visual Studio 2013\Projects\SalesSystem\SalesSystem\obj\Debug\SalesSystem.forms.otherForms.searchProducts.resources
+D:\New folder\Visual Studio 2013\Projects\SalesSystem\SalesSystem\obj\Debug\SalesSystem.forms.registerProductScreen.resources
+D:\New folder\Visual Studio 2013\Projects\SalesSystem\SalesSystem\obj\Debug\SalesSystem.Properties.Resources.resources
+D:\New folder\Visual Studio 2013\Projects\SalesSystem\SalesSystem\obj\Debug\SalesSystem.csproj.GenerateResource.cache
+D:\New folder\Visual Studio 2013\Projects\SalesSystem\SalesSystem\obj\Debug\SalesSystem.csproj.CoreCompileInputs.cache
+D:\New folder\Visual Studio 2013\Projects\SalesSystem\SalesSystem\obj\Debug\SalesSystem.exe
+D:\New folder\Visual Studio 2013\Projects\SalesSystem\SalesSystem\obj\Debug\SalesSystem.pdb
+D:\New folder\Visual Studio 2013\Projects\SalesSystem\SalesSystem\obj\Debug\SalesSystem.forms.registerSalesScreen.resources
+D:\New folder\Visual Studio 2013\Projects\SalesSystem\SalesSystem\obj\Debug\SalesSystem.forms.settingScreen.resources
+D:\New folder\Visual Studio 2013\Projects\SalesSystem\SalesSystem\obj\Debug\SalesSystem.forms.otherForms.invoiceTemplete.resources
+D:\New folder\Visual Studio 2013\Projects\SalesSystem\SalesSystem\obj\Debug\SalesSystem.forms.extermForms.loginScreen.resources
+D:\New folder\Visual Studio 2013\Projects\SalesSystem\SalesSystem\obj\Debug\SalesSystem.forms.extermForms.activateScreen.resources
