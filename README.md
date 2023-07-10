@@ -4,6 +4,16 @@
 Here some screenshots
 ## Screenshots
 Home Screen
-![App Screenshot](https://storage.googleapis.com/shopify-customerio/tools/image_attachment/image/custom_resized_c1283782-972a-4a9a-ba8e-b7360a036f05.jpg)
+![App Screenshot](https://raw.githubusercontent.com/muq2002/SalesSystem/main/screenshots/home_screen.jpg)
 
-![App Screenshot](https://storage.googleapis.com/shopify-customerio/tools/image_attachment/image/custom_resized_c1283782-972a-4a9a-ba8e-b7360a036f05.jpg)
+Register Sales Screen
+![Login Screenshot](https://raw.githubusercontent.com/muq2002/SalesSystem/main/screenshots/register_sales_screen.jpg)
+
+Register Products Screen
+![Activation Screenshot](https://raw.githubusercontent.com/muq2002/SalesSystem/main/screenshots/register_products_screen.jpg)
+
+Login Screen
+![Login Screenshot](https://raw.githubusercontent.com/muq2002/SalesSystem/main/screenshots/login_screen.jpg)
+
+Activation Screen
+![Activation Screenshot](https://raw.githubusercontent.com/muq2002/SalesSystem/main/screenshots/activation_screen.jpg)
